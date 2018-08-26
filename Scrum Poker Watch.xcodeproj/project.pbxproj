@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4C0DC121321B55006EF872 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C0DC021321B55006EF872 /* DetailsController.swift */; };
+		5DB0991F212E0E3F007CDCE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0991E212E0E3F007CDCE5 /* AppDelegate.swift */; };
+		5DB09921212E0E3F007CDCE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB09920212E0E3F007CDCE5 /* ViewController.swift */; };
+		5DB09924212E0E3F007CDCE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB09922212E0E3F007CDCE5 /* Main.storyboard */; };
+		5DB09926212E0E40007CDCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB09925212E0E40007CDCE5 /* Assets.xcassets */; };
+		5DB09929212E0E40007CDCE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB09927212E0E40007CDCE5 /* LaunchScreen.storyboard */; };
+		5DB09944212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5DB09943212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App.app */; };
+		5DB0994A212E0E40007CDCE5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB09948212E0E40007CDCE5 /* Interface.storyboard */; };
+		5DB0994C212E0E40007CDCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0994B212E0E40007CDCE5 /* Assets.xcassets */; };
+		5DB09953212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5DB09952212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5DB09958212E0E40007CDCE5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB09957212E0E40007CDCE5 /* InterfaceController.swift */; };
+		5DB0995A212E0E40007CDCE5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB09959212E0E40007CDCE5 /* ExtensionDelegate.swift */; };
+		5DB0995C212E0E40007CDCE5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0995B212E0E40007CDCE5 /* NotificationController.swift */; };
+		5DB0995E212E0E40007CDCE5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0995D212E0E40007CDCE5 /* ComplicationController.swift */; };
+		5DB099792131F34A007CDCE5 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB099782131F34A007CDCE5 /* TableRowController.swift */; };
+		5DDACB5B2132CBAF004337C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDACB5A2132CBAF004337C3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DB09930212E0E40007CDCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB09913212E0E3F007CDCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB0991A212E0E3F007CDCE5;
+			remoteInfo = "Scrum Poker Watch";
+		};
+		5DB0993B212E0E40007CDCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB09913212E0E3F007CDCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB0991A212E0E3F007CDCE5;
+			remoteInfo = "Scrum Poker Watch";
+		};
+		5DB09945212E0E40007CDCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB09913212E0E3F007CDCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB09942212E0E40007CDCE5;
+			remoteInfo = "Scrum Poker Watch WatchKit App";
+		};
+		5DB09954212E0E40007CDCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB09913212E0E3F007CDCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB09951212E0E40007CDCE5;
+			remoteInfo = "Scrum Poker Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DB09968212E0E41007CDCE5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5DB09953212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0996C212E0E41007CDCE5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5DB09944212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D4C0DC021321B55006EF872 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		5DB0991B212E0E3F007CDCE5 /* Scrum Poker Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrum Poker Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB0991E212E0E3F007CDCE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DB09920212E0E3F007CDCE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DB09923212E0E3F007CDCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DB09925212E0E40007CDCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB09928212E0E40007CDCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DB0992A212E0E40007CDCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB0992F212E0E40007CDCE5 /* Scrum Poker WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrum Poker WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB0993A212E0E40007CDCE5 /* Scrum Poker WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrum Poker WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB09943212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrum Poker Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB09949212E0E40007CDCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5DB0994B212E0E40007CDCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB0994D212E0E40007CDCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB09952212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Scrum Poker Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB09957212E0E40007CDCE5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5DB09959212E0E40007CDCE5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5DB0995B212E0E40007CDCE5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5DB0995D212E0E40007CDCE5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		5DB09961212E0E41007CDCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB09962212E0E41007CDCE5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5DB09976212E0E4F007CDCE5 /* Scrum Poker Watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Scrum Poker Watch.entitlements"; sourceTree = "<group>"; };
+		5DB09977212E0F90007CDCE5 /* Scrum Poker Watch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Scrum Poker Watch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5DB099782131F34A007CDCE5 /* TableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
+		5DDACB5A2132CBAF004337C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB09918212E0E3F007CDCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0992C212E0E40007CDCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB09937212E0E40007CDCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0994F212E0E40007CDCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB09912212E0E3F007CDCE5 = {
+			isa = PBXGroup;
+			children = (
+				5DB0991D212E0E3F007CDCE5 /* Scrum Poker Watch */,
+				5DB09947212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App */,
+				5DB09956212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension */,
+				5DB0991C212E0E3F007CDCE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB0991C212E0E3F007CDCE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0991B212E0E3F007CDCE5 /* Scrum Poker Watch.app */,
+				5DB0992F212E0E40007CDCE5 /* Scrum Poker WatchTests.xctest */,
+				5DB0993A212E0E40007CDCE5 /* Scrum Poker WatchUITests.xctest */,
+				5DB09943212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App.app */,
+				5DB09952212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB0991D212E0E3F007CDCE5 /* Scrum Poker Watch */ = {
+			isa = PBXGroup;
+			children = (
+				5DB09976212E0E4F007CDCE5 /* Scrum Poker Watch.entitlements */,
+				5DB0991E212E0E3F007CDCE5 /* AppDelegate.swift */,
+				5DB09920212E0E3F007CDCE5 /* ViewController.swift */,
+				5DB09922212E0E3F007CDCE5 /* Main.storyboard */,
+				5DB09925212E0E40007CDCE5 /* Assets.xcassets */,
+				5DB09927212E0E40007CDCE5 /* LaunchScreen.storyboard */,
+				5DB0992A212E0E40007CDCE5 /* Info.plist */,
+			);
+			path = "Scrum Poker Watch";
+			sourceTree = "<group>";
+		};
+		5DB09947212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5DB09948212E0E40007CDCE5 /* Interface.storyboard */,
+				5DB0994B212E0E40007CDCE5 /* Assets.xcassets */,
+				5DB0994D212E0E40007CDCE5 /* Info.plist */,
+			);
+			path = "Scrum Poker Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		5DB09956212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DDACB5A2132CBAF004337C3 /* Assets.xcassets */,
+				5DB09977212E0F90007CDCE5 /* Scrum Poker Watch WatchKit Extension.entitlements */,
+				5DB09957212E0E40007CDCE5 /* InterfaceController.swift */,
+				5DB09959212E0E40007CDCE5 /* ExtensionDelegate.swift */,
+				5DB0995B212E0E40007CDCE5 /* NotificationController.swift */,
+				5DB0995D212E0E40007CDCE5 /* ComplicationController.swift */,
+				5DB09961212E0E41007CDCE5 /* Info.plist */,
+				5DB09962212E0E41007CDCE5 /* PushNotificationPayload.apns */,
+				5DB099782131F34A007CDCE5 /* TableRowController.swift */,
+				5D4C0DC021321B55006EF872 /* DetailsController.swift */,
+			);
+			path = "Scrum Poker Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DB0991A212E0E3F007CDCE5 /* Scrum Poker Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB0996D212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker Watch" */;
+			buildPhases = (
+				5DB09917212E0E3F007CDCE5 /* Sources */,
+				5DB09918212E0E3F007CDCE5 /* Frameworks */,
+				5DB09919212E0E3F007CDCE5 /* Resources */,
+				5DB0996C212E0E41007CDCE5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB09946212E0E40007CDCE5 /* PBXTargetDependency */,
+			);
+			name = "Scrum Poker Watch";
+			productName = "Scrum Poker Watch";
+			productReference = 5DB0991B212E0E3F007CDCE5 /* Scrum Poker Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DB0992E212E0E40007CDCE5 /* Scrum Poker WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB09970212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker WatchTests" */;
+			buildPhases = (
+				5DB0992B212E0E40007CDCE5 /* Sources */,
+				5DB0992C212E0E40007CDCE5 /* Frameworks */,
+				5DB0992D212E0E40007CDCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB09931212E0E40007CDCE5 /* PBXTargetDependency */,
+			);
+			name = "Scrum Poker WatchTests";
+			productName = "Scrum Poker WatchTests";
+			productReference = 5DB0992F212E0E40007CDCE5 /* Scrum Poker WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DB09939212E0E40007CDCE5 /* Scrum Poker WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB09973212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker WatchUITests" */;
+			buildPhases = (
+				5DB09936212E0E40007CDCE5 /* Sources */,
+				5DB09937212E0E40007CDCE5 /* Frameworks */,
+				5DB09938212E0E40007CDCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB0993C212E0E40007CDCE5 /* PBXTargetDependency */,
+			);
+			name = "Scrum Poker WatchUITests";
+			productName = "Scrum Poker WatchUITests";
+			productReference = 5DB0993A212E0E40007CDCE5 /* Scrum Poker WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5DB09942212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB09969212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker Watch WatchKit App" */;
+			buildPhases = (
+				5DB09941212E0E40007CDCE5 /* Resources */,
+				5DB09968212E0E41007CDCE5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB09955212E0E40007CDCE5 /* PBXTargetDependency */,
+			);
+			name = "Scrum Poker Watch WatchKit App";
+			productName = "Scrum Poker Watch WatchKit App";
+			productReference = 5DB09943212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5DB09951212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB09965212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker Watch WatchKit Extension" */;
+			buildPhases = (
+				5DB0994E212E0E40007CDCE5 /* Sources */,
+				5DB0994F212E0E40007CDCE5 /* Frameworks */,
+				5DB09950212E0E40007CDCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scrum Poker Watch WatchKit Extension";
+			productName = "Scrum Poker Watch WatchKit Extension";
+			productReference = 5DB09952212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB09913212E0E3F007CDCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Alexandre Fontoura";
+				TargetAttributes = {
+					5DB0991A212E0E3F007CDCE5 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5DB0992E212E0E40007CDCE5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5DB0991A212E0E3F007CDCE5;
+					};
+					5DB09939212E0E40007CDCE5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5DB0991A212E0E3F007CDCE5;
+					};
+					5DB09942212E0E40007CDCE5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5DB09951212E0E40007CDCE5 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5DB09916212E0E3F007CDCE5 /* Build configuration list for PBXProject "Scrum Poker Watch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DB09912212E0E3F007CDCE5;
+			productRefGroup = 5DB0991C212E0E3F007CDCE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB0991A212E0E3F007CDCE5 /* Scrum Poker Watch */,
+				5DB0992E212E0E40007CDCE5 /* Scrum Poker WatchTests */,
+				5DB09939212E0E40007CDCE5 /* Scrum Poker WatchUITests */,
+				5DB09942212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App */,
+				5DB09951212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DB09919212E0E3F007CDCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB09929212E0E40007CDCE5 /* LaunchScreen.storyboard in Resources */,
+				5DB09926212E0E40007CDCE5 /* Assets.xcassets in Resources */,
+				5DB09924212E0E3F007CDCE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0992D212E0E40007CDCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB09938212E0E40007CDCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB09941212E0E40007CDCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0994C212E0E40007CDCE5 /* Assets.xcassets in Resources */,
+				5DB0994A212E0E40007CDCE5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB09950212E0E40007CDCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDACB5B2132CBAF004337C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB09917212E0E3F007CDCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB09921212E0E3F007CDCE5 /* ViewController.swift in Sources */,
+				5DB0991F212E0E3F007CDCE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0992B212E0E40007CDCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB09936212E0E40007CDCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0994E212E0E40007CDCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0995C212E0E40007CDCE5 /* NotificationController.swift in Sources */,
+				5DB0995E212E0E40007CDCE5 /* ComplicationController.swift in Sources */,
+				5DB099792131F34A007CDCE5 /* TableRowController.swift in Sources */,
+				5DB0995A212E0E40007CDCE5 /* ExtensionDelegate.swift in Sources */,
+				5D4C0DC121321B55006EF872 /* DetailsController.swift in Sources */,
+				5DB09958212E0E40007CDCE5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB09931212E0E40007CDCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB0991A212E0E3F007CDCE5 /* Scrum Poker Watch */;
+			targetProxy = 5DB09930212E0E40007CDCE5 /* PBXContainerItemProxy */;
+		};
+		5DB0993C212E0E40007CDCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB0991A212E0E3F007CDCE5 /* Scrum Poker Watch */;
+			targetProxy = 5DB0993B212E0E40007CDCE5 /* PBXContainerItemProxy */;
+		};
+		5DB09946212E0E40007CDCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB09942212E0E40007CDCE5 /* Scrum Poker Watch WatchKit App */;
+			targetProxy = 5DB09945212E0E40007CDCE5 /* PBXContainerItemProxy */;
+		};
+		5DB09955212E0E40007CDCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB09951212E0E40007CDCE5 /* Scrum Poker Watch WatchKit Extension */;
+			targetProxy = 5DB09954212E0E40007CDCE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DB09922212E0E3F007CDCE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB09923212E0E3F007CDCE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB09927212E0E40007CDCE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB09928212E0E40007CDCE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB09948212E0E40007CDCE5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB09949212E0E40007CDCE5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DB09963212E0E41007CDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DB09964212E0E41007CDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB09966212E0E41007CDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Scrum Poker Watch WatchKit Extension/Scrum Poker Watch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.scrum-poker-watch-2.watchkitapp.extension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		5DB09967212E0E41007CDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Scrum Poker Watch WatchKit Extension/Scrum Poker Watch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.scrum-poker-watch-2.watchkitapp.extension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		5DB0996A212E0E41007CDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				IBSC_MODULE = Scrum_Poker_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Scrum Poker Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.scrum-poker-watch-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		5DB0996B212E0E41007CDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				IBSC_MODULE = Scrum_Poker_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Scrum Poker Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.scrum-poker-watch-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		5DB0996E212E0E41007CDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Scrum Poker Watch/Scrum Poker Watch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker Watch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.scrum-poker-watch-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DB0996F212E0E41007CDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Scrum Poker Watch/Scrum Poker Watch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker Watch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.scrum-poker-watch-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DB09971212E0E41007CDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.Scrum-Poker-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrum Poker Watch.app/Scrum Poker Watch";
+			};
+			name = Debug;
+		};
+		5DB09972212E0E41007CDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.Scrum-Poker-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrum Poker Watch.app/Scrum Poker Watch";
+			};
+			name = Release;
+		};
+		5DB09974212E0E41007CDCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker WatchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.Scrum-Poker-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scrum Poker Watch";
+			};
+			name = Debug;
+		};
+		5DB09975212E0E41007CDCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L26525FXK7;
+				INFOPLIST_FILE = "Scrum Poker WatchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.xesf.Scrum-Poker-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scrum Poker Watch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB09916212E0E3F007CDCE5 /* Build configuration list for PBXProject "Scrum Poker Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB09963212E0E41007CDCE5 /* Debug */,
+				5DB09964212E0E41007CDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB09965212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB09966212E0E41007CDCE5 /* Debug */,
+				5DB09967212E0E41007CDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB09969212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB0996A212E0E41007CDCE5 /* Debug */,
+				5DB0996B212E0E41007CDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB0996D212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB0996E212E0E41007CDCE5 /* Debug */,
+				5DB0996F212E0E41007CDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB09970212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB09971212E0E41007CDCE5 /* Debug */,
+				5DB09972212E0E41007CDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB09973212E0E41007CDCE5 /* Build configuration list for PBXNativeTarget "Scrum Poker WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB09974212E0E41007CDCE5 /* Debug */,
+				5DB09975212E0E41007CDCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB09913212E0E3F007CDCE5 /* Project object */;
+}

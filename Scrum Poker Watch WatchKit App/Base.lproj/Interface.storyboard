@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.3.2" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238"/>
+    </dependencies>
+    <scenes>
+        <!--main-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="main" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Scrum_Poker_Watch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="pJ0-em-cLm" userLabel="table">
+                            <items>
+                                <tableRow identifier="row" id="wQf-rZ-cmo" userLabel="row" customClass="TableRowController" customModule="Scrum_Poker_Watch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="oSK-nL-xNd">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="vyt-fg-KQB"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="number" destination="vyt-fg-KQB" id="d1h-4A-gQ5"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tblRow" destination="pJ0-em-cLm" id="3zi-8S-3s3"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Scrum_Poker_Watch_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Points-->
+        <scene sceneID="9ww-y0-uKr">
+            <objects>
+                <controller identifier="showDetails" title="Points" fullScreen="YES" id="5Rt-du-SkF" customClass="DetailsController" customModule="Scrum_Poker_Watch_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="201" alignment="center" verticalAlignment="center" id="90Z-DH-9IE">
+                            <color key="titleColor" red="0.20808325234522451" green="0.4595611082608938" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="system" pointSize="80"/>
+                            <connections>
+                                <action selector="buttonAction" destination="5Rt-du-SkF" id="fzH-mK-WO9"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="btLabel" destination="90Z-DH-9IE" id="6EK-UN-q40"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="54"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Scrum_Poker_Watch_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+    </scenes>
+</document>
